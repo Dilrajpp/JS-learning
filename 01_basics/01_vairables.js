@@ -7,7 +7,7 @@ let accountState;
 // accountId = 2 // not allowed
 
 
-accountEmail = "hc@hc.com"
+accountEmail = "dilrajpppfyvk.com"
 accountPassword = "21212121"
 accountCity = "Bengaluru"
 
@@ -22,4 +22,4 @@ because of issue in block scope and functional scope
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
 
 
-// node 01_basics/02_dataTypes.js
+// node 01_basics/02_vairables.js
