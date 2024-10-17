@@ -23,7 +23,7 @@ console.log(id === anotherId);
 
 
 
-// Reference (Non primitive)
+            // Reference (Non primitive)
 
 // Array, Objects, Functions
 
@@ -40,3 +40,33 @@ const myfunction = function(){
 
 
 console.log(typeof isLoggedIn);
+
+
+
+
+
+//              ******************************************************
+
+//Stack (Primitive),            Heap (Non-Primitive)
+
+let myYoutubename = "dilrajyoutubechanel"
+
+let anothername = "myYoutubename"
+anothername = "chaiaurdilraj"
+
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "dilrajpp@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "dilraj@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
