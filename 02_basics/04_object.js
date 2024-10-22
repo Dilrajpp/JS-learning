@@ -60,12 +60,50 @@ const users = [
 ]
 
 users[1].email
-console.log(trendUser);
+// console.log(trendUser);
 
 
-console.log(Object.keys(trendUser));
-console.log(Object.values(trendUser));
-console.log(Object.entries(trendUser));
+// console.log(Object.keys(trendUser));
+// console.log(Object.values(trendUser));
+// console.log(Object.entries(trendUser));
 
 
-console.log(trendUser.hasOwnProperty('isLogged'));
+// console.log(trendUser.hasOwnProperty('isLogged'));
+
+
+
+
+
+//  **********part_3
+
+
+const course = {
+    coursename: "dilraj js",
+    price: "005",
+    courseInstructor: "dilraj"
+}
+
+//  course.courseInstructor
+
+const {courseInstructor} = course
+
+console.log(courseInstructor);
+
+
+// in react me
+// const navbar = ({company}) => {
+// }
+// navbar(company = "dilraj")
+
+// {
+//     "name": "dilraj"
+//     coursename: "dilraj js"
+//     prise: "free"
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
