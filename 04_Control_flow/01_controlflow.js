@@ -2,9 +2,14 @@
 
 // if 
 
+
+
 const isUserLoggedIn = true
 
 const temperature = 51
+
+
+
 
 // if ( temperature < 60 ){
 //     console.log("less than 60");
@@ -94,4 +99,17 @@ const temperature = 51
 
 
 
-const userLoggedIn = t
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+
+if (userLoggedIn && debitCard && 2==2 ) {
+    console.log("Allow to buy course");
+    
+}
+
+if (loggedInFromGoogle || loggedInFromEmail) {
+    console.log("user logged in");
+    
+}
