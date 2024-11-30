@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Closure and JavaScript</title>
 </head>
-<body>
+<body style="background-color: #313131;">
     <script>
         // function init() {
         //     let name = "Mozilla"; // name is a local variable created by init
@@ -19,9 +19,16 @@
 
         function outer(){
             let username = "dilraj"
-        }
 
-        console.log(username);
+            function inner(){
+                console.log("inner", username);
+                
+            }
+            inner()
+        }
+        outer()
+
+        console.log("TOO OUTER", username);
         
 
     </script>
